@@ -1,0 +1,96 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+p {
+    color: white;
+    width: 600px;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+font {
+    color: #ADD8E6;
+}
+
+.line {
+    stroke-width: 2;
+}
+
+.axis {
+    stroke-width: 0;
+    fill: transparent;
+}
+
+#chart_zone {
+    text-align: center;
+}
+
+#chart_zone text {
+    fill: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#svg_zone {
+    margin: 0 auto;
+}
+
+#menu {
+    width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+
+#menu li {
+    display: inline-block;
+    cursor: pointer;
+    background: #182029;
+    color: #c0c0c0;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-right: 2px;
+}
+
+#menu #all_time {
+    background: #0000FF;
+}
+
+#tooltip {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    background-color: black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+#tooltip.hidden {
+    display: none;
+}
+
+#tooltip p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    width: 200px;
+    text-align: center;
+}

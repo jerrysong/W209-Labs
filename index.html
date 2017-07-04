@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="vendors/d3/d3.min.js"></script>
+    <script type="text/javascript" src="resources/js/assignment4.js"></script>
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <title>Assignment 4</title>
+</head>
+
+<body bgcolor="#191919">
+    <h1>Ethereum Price vs Google Search Trend</h1>
+    <div id="chart_zone">
+        <div id="menu">
+            <ul>
+                <li id="all_time">All Time</li>
+                <li id="one_year">1 Year</li>
+                <li id="six_month">6 Month</li>
+                <li id="three_month">3 Month</li>
+            </ul>
+        </div>
+        <div id="svg_zone">
+            <svg></svg>
+        </div>
+    </div>
+    <div id="tooltip" class="hidden">
+        <p id="time">0</p>
+        <p id="price">0</p>
+        <p id="index">0</p>
+    </div>
+    <h2>Story of Ethereum</h2>
+    <p id="story">
+        Ethereum has marked a 2800% price rally in year 2017 alone. The skyrocketing price makes many people believe that it will surpass Bitcoin to become the new dominant token in the cryptocurrency market. As one of the tokens built upon the Blockchain technique,
+        Ethereum is rooted to the Internet by nature. This visual work pursues to show the correlation between the Ethereum price and the Google trend index of Ethereum. The price data is from
+        <a href="https://etherscan.io/chart/etherprice">
+            <font>here</font>
+        </a> and the trend data is from
+        <a href="https://trends.google.com/trends/explore?q=ethereum">
+            <font>here</font>
+        </a>. Raw data are processed by a Python script and being merged to one csv file. Unfortunately, Google only updates its trend data once a week, so I cannot make this live. What a pity!
+    </p>
+</body>
+
+</html>
